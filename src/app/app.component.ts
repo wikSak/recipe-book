@@ -7,8 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'course-app';
-  category:number = 1;
-  showCategory(category){
-    this.category = category;
-  }
+  category:number = 0;
+
 }
